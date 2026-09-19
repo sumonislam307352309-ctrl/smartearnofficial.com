@@ -372,7 +372,7 @@ footer a{color:#c9a227}
     <p class="sub1">মাত্র কম ব্যালেন্সেই রিচার্জ, বিকাশ/নগদ উইথড্র, সাথে সাথে পেমেন্ট!</p>
     <p class="sub2">নিচে থেকে অ্যাপ ডাউনলোড করে ধুমসে কাজ করুন পেমেন্ট পাবেন মাত্র কয়েক মিনিটে।</p>
     <p class="note">সারা মাস কাজ করতে পারবেন</p>
-    <a href="#" class="btn-dl" id="download"><i class="fa-solid fa-cloud-arrow-down"></i> অ্যাপ ডাউনলোড</a>
+    <a href="https://t.me/smartearnofficialapk" class="btn-dl" id="download" target="_blank" rel="noopener"><i class="fa-solid fa-cloud-arrow-down"></i> অ্যাপ ডাউনলোড</a>
   </div>
   <div class="cardview">
     <h2>Apps</h2>
@@ -427,7 +427,7 @@ footer a{color:#c9a227}
     <div class="video-card">
       <div class="video-placeholder">
         <iframe
-          src=""
+          src="https://www.youtube.com/embed/aRiuGglZp6I"
           title="How To Work Video"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -495,7 +495,7 @@ footer a{color:#c9a227}
 
 <div class="cta">
   <p>এখনই অ্যাপ ডাউনলোড করে কাজ শুরু করুন</p>
-  <a href="#" class="btn-dl"><i class="fa-solid fa-cloud-arrow-down"></i> অ্যাপ ডাউনলোড</a>
+  <a href="https://t.me/smartearnofficialapk" class="btn-dl" target="_blank" rel="noopener"><i class="fa-solid fa-cloud-arrow-down"></i> অ্যাপ ডাউনলোড</a>
 </div>
 
 <footer>
@@ -612,6 +612,21 @@ window.addEventListener('load', function(){
 <a href="https://t.me/officialsmartearn" class="float-tg" target="_blank" rel="noopener" aria-label="Telegram">
   <i class="fa-brands fa-telegram"></i>
 </a>
+
+<!-- Monetag Ads -->
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function () {
+      navigator.serviceWorker.register('./sw.js')
+        .then(function (reg) {
+          console.log('Monetag SW registered');
+        })
+        .catch(function (err) {
+          console.log('Monetag SW failed:', err);
+        });
+    });
+  }
+</script>
 
 </body>
 </html>
